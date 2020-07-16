@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5Q6VY8Nn6YbbmHNpvXDZTFohop36wNQONuNvFY22QGZWy17vnkt4tXstjx+zjfxWVs+nWfUaEG9yQwOZJuZ2Bg==",
+  "dgSpecHash": "Vd11i6WL8ee5KMqYBukRiJ8YuB+iVn3WrcWVIpXgQB47rJuY5YEVroeSrtfeXUOHpsvouomXMn0xOCfiga8rWw==",
   "success": true,
   "projectFilePath": "/Users/louise.gilliganzoopla.co.uk/ZooplaTraining/Bus/Bus.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/louise.gilliganzoopla.co.uk/.nuget/packages/restsharp/106.11.4/restsharp.106.11.4.nupkg.sha512"
+  ],
   "logs": []
 }
