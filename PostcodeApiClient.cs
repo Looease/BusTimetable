@@ -15,7 +15,7 @@ namespace Bus
 
         public Coordinates GetCoordinatesforPostcode(string postcode)
         {
-            var request = new RestRequest("postcodes/").AddUrlSegment("postcode", postcode);
+            var request = new RestRequest("postcodes/{postcode}").AddUrlSegment("postcode", postcode);
 
             var response = client.Get<PostcodeResponse>(request);
 

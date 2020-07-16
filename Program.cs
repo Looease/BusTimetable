@@ -16,7 +16,9 @@ namespace Bus
 
             //The user will input their stopcode to find out what buses are near them
             //We will create a method for this below
-            var postCodeInput = GetPostCodeFromUser();
+            // var postCodeInput = GetPostCodeFromUser();
+
+            var postCodeInput = "Hp3 8jf";
 
             var postcode = postcodeAPiClient.GetCoordinatesforPostcode(postCodeInput);
 
